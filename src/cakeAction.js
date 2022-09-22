@@ -4,3 +4,14 @@ export const buyCake = () => {
   };
 };
 
+export const resetck = () => {
+  return {
+    type: 'RESET_CAKE',
+  };
+};
+
+export const stockzero = () => {
+  return {
+    type: 'ZERO_CAKE',
+  };
+}
